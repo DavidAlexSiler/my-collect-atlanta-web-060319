@@ -3,5 +3,6 @@ def my_collect(collection)
     collection.each do |element|
       new_arr << collection.call(element)
   end
+  new_arr
 end
 
