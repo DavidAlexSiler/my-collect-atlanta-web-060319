@@ -1,7 +1,7 @@
 def my_collect(collection)
   new_arr = []
     collection.each do |element|
-      new_arr << block.call(element)
+      new_arr << collection.call(element)
   end
 end
 
